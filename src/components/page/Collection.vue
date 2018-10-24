@@ -104,7 +104,6 @@
                 <div v-for="articleList in topic.articleList">
                   <img :src="articleList.thumbnail" class="article-thumbnail"
                        style="height:100px;width: 120px;"/>
-
                 </div>
               </div>
             </b-card>
@@ -191,6 +190,7 @@
       console.log(this.id);
       if (this.id == 1) {
         var t = {
+
           "id": 1,
           "topicName": "读书",
           "topicUrl": "https://upload.jianshu.io/collections/images/4/sy_20091020135145113016.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240",
@@ -270,11 +270,14 @@
             }
           ]
         };
+
         this.topic = t;
       } else {
         this.topic = {};
       }
     },
+
+
     computed: function () {
       return this.topic;
     }

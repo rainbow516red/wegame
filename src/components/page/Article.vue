@@ -2,7 +2,9 @@
 
   <div class="one">
     <b-card class="card">
+      <router-link :to="'/d/'+ 1">
       <p class="card-title">喜欢独处但又很有才华的三大星座，看看你上榜了吗</p>
+      </router-link>
       <p class="card-text">
         每一个星座的个性都是不一样的， 所以往往会产生很多的不同之处，其中，便有几个星座是比较特殊，他们比较喜欢独来独往，但同时他们又很优秀，那么这几个...
       </p>
@@ -22,7 +24,9 @@
     <b-card class="card">
       <div class="cd" style="display: flex">
         <div>
+          <router-link :to="'/d/'+ 2">
           <p class="card-title">“看你的微信头像，就知道你没见过世面”</p>
+          </router-link>
           <p class="card-text">
             01 认识一个男生，感情空窗期3年了。 上周，他在微信上问我，身边有没有单身的小姐姐可以介绍给他。 刚好朋友圈里有个软妹子，前不久失恋，沉浸在悲...
           </p>

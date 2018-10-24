@@ -12,31 +12,43 @@
     </a>
 
     <a class="collection" id="2" target="_blank" >
-    <img class="img"  src="//upload.jianshu.io/collections/images/4/sy_20091020135145113016.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64" alt="64" />
+      <router-link :to="'/c/'+ 2">
+      <img class="img"  src="//upload.jianshu.io/collections/images/4/sy_20091020135145113016.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64" alt="64" />
+      </router-link>
     <div class="name">读书</div>
   </a>
     <a class="collection" id="3" target="_blank" >
-    <img class="img"  src="//upload.jianshu.io/collections/images/21/20120316041115481.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64" alt="64" />
+      <router-link :to="'/c/'+ 3">
+      <img class="img"  src="//upload.jianshu.io/collections/images/21/20120316041115481.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64" alt="64" />
+      </router-link>
     <div class="name1">简书电影</div>
   </a>
     <a class="collection" id="4" target="_blank" >
+      <router-link :to="'/c/'+ 4">
     <img class="img" src="//upload.jianshu.io/collections/images/95/1.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64" alt="64" />
+      </router-link>
     <div class="name">故事</div>
   </a>
     <a class="collection" id="5" target="_blank">
+      <router-link :to="'/c/'+ 5">
     <img class="img" src="//upload.jianshu.io/collections/images/283250/%E6%BC%AB%E7%94%BB%E4%B8%93%E9%A2%98.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64" alt="64" />
+      </router-link>
     <div class="name">手绘</div>
   </a>
   </div>
 <div class="two" style="padding-top: 10px">
 
     <a class="collection" id="6" target="_blank" >
+      <router-link :to="'/c/'+ 6">
     <img class="img" src="//upload.jianshu.io/collections/images/14/6249340_194140034135_2.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64" alt="64" />
+      </router-link>
     <div class="name1">@IT·互联网</div>
   </a>
 
     <a class="collection" id="7" target="_blank" >
+      <router-link :to="'/c/'+ 7">
     <img class="img" src="//upload.jianshu.io/collections/images/76/12.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64" alt="64" />
+      </router-link>
     <div class="name1">自然科普</div>
   </a>
   <router-link to="/colletions">
